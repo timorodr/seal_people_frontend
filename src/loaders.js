@@ -1,6 +1,7 @@
 
 
-const URL = process.env.REACT_APP_URL
+// const URL = process.env.REACT_APP_URL
+const URL = "https://backend-lab-initial.onrender.com/"
 
 export const peopleLoader = async () => {
     const response = await fetch(`${URL}/people`)
